@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestRabbitMQ_MQTT_Console", "TestRabbitMQ_MQTT_Console.csproj", "{53EF4DC3-D6CD-40C7-BF32-6E88664BA2F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTPublisher", "..\MQTTPublisher\MQTTPublisher.csproj", "{065708B2-FA3F-4B43-BE7A-2F5B49195C42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTSubscriber", "..\MQTTClient\MQTTSubscriber.csproj", "{E825D819-19FF-43C0-B4DE-B2CB15854091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQTTSubscriber2", "..\MQTTSubscriber2\MQTTSubscriber2.csproj", "{67C6E056-9A12-4510-BCCD-0B268B71B84D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53EF4DC3-D6CD-40C7-BF32-6E88664BA2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EF4DC3-D6CD-40C7-BF32-6E88664BA2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EF4DC3-D6CD-40C7-BF32-6E88664BA2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EF4DC3-D6CD-40C7-BF32-6E88664BA2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065708B2-FA3F-4B43-BE7A-2F5B49195C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065708B2-FA3F-4B43-BE7A-2F5B49195C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065708B2-FA3F-4B43-BE7A-2F5B49195C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065708B2-FA3F-4B43-BE7A-2F5B49195C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E825D819-19FF-43C0-B4DE-B2CB15854091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E825D819-19FF-43C0-B4DE-B2CB15854091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E825D819-19FF-43C0-B4DE-B2CB15854091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E825D819-19FF-43C0-B4DE-B2CB15854091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C6E056-9A12-4510-BCCD-0B268B71B84D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C6E056-9A12-4510-BCCD-0B268B71B84D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C6E056-9A12-4510-BCCD-0B268B71B84D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C6E056-9A12-4510-BCCD-0B268B71B84D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EAD6416-B7BD-41F2-A5A3-F907BC847878}
+	EndGlobalSection
+EndGlobal
